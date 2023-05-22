@@ -3,5 +3,7 @@
 
 var animal;
 var addKey;
-
+function addKey(object){
+   return object.weight= 47;
+}
 

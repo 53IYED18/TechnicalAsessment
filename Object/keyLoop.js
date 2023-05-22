@@ -3,5 +3,14 @@
 // return "There's a monkey!", otherwise return "There's no monkey here!".
 
 var keyLoop;
+function keyLoop(object){
+    let values=Object.values(object);
+    for (let i=0; i<values.length; i++){
+        if(values[i]==="monkey"){
+            return "There's a monkey!"
+        }else{
+                return "There's no monkey here!"
+        }
+}
 
-
+}
